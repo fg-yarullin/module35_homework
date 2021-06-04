@@ -8,39 +8,44 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="select-year">
-        <select name="year" id="year">
-            <option value="" selected>Выберите год</option>
-            <option value="2017">2017</option>
-            <option value="2018">2018</option>
-            <option value="2019">2019</option>
-        </select>
-        <button class="btn btn-request">Загрузить отчет</button>
-    </div>
-    <div class="result_tbl">
-        <table class="result__table table">
-            <thead>
-                <th>1 кв.</th>
-                <th>2 кв.</th>
-                <th>3 кв.</th>
-                <th>4 кв.</th>
-            </thead>
-            <tbody class="result_body">
-                <tr class="cells">
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="result">
-        <div class="result__item">1 кв.</div>
-        <div class="result__item">2 кв.</div>
-        <div class="result__item">3 кв.</div>
-        <div class="result__item">4 кв.</div>
+    <div class="container">
+        <div class="report">
+            <label for="report-year">
+                <select class="report-year" name="report-year" id="report-year">
+                    <option value="" selected>Выберите год</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                </select>
+            </label>
+            <button class="btn btn-request">Загрузить отчет</button>
+        </div>
+        <div class="warning">Выберите, пожалуйста, год</div>
+        <div class="result">
+            <table class="table">
+                <thead class="thead">
+                    <tr>
+                        <th class="th">1 кв.</th>
+                        <th class="th">2 кв.</th>
+                        <th class="th">3 кв.</th>
+                        <th class="th">4 кв.</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody">
+                    <tr class="cells">
+                        <td class="td"></td>
+                        <td class="td"></td>
+                        <td class="td"></td>
+                        <td class="td"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="chart">
+            <img src="" alt="chart" class="chart-image">
+        </div>
     </div>
 </body>
 <script src="js/task_3.js"></script>
+<script src="js/task_4.js"></script>
 </html>
