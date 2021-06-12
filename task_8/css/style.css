@@ -1,0 +1,23 @@
+.container {
+    width: 1200px;
+}
+.input {
+    width: 200px;
+}
+
+#message {
+    display: none;
+    margin: 15px 0 0 0;
+}
+
+.img {
+    margin: 5px;
+}
+
+.images {
+    width: 90%;
+}
+
+.btn {
+    width: 200px;
+}
